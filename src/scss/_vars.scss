@@ -1,0 +1,16 @@
+// _vars.scss
+
+$line-height: 1.5em;
+$font-stack: Open Sans, sans-serif;
+
+//Colors
+$footer-bg-color: black;
+$header-bg-color: black;
+$border-color: grey;
+$red: hsla(360, 66%, 51%, 1);
+
+$text-color: white;
+
+@function em($px, $base: 16) {
+	@return ($px / $base) * 1em;
+}

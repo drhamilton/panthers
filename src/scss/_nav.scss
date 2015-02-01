@@ -1,0 +1,55 @@
+// _nav.scss
+
+.main-navigation {
+	text-align: right;
+	background: $header-bg-color;
+	position: relative;
+	border-bottom: 1px solid $border-color;
+	margin-bottom: 2em;
+
+	.menu {
+		position: absolute;
+		right: 0;
+		top: 3em;
+		background: $header-bg-color;
+		transition: all 0.5s ease;
+	}
+
+	li {
+		padding: 0.5em;
+		border-bottom: 1px solid $border-color;
+		transition: background-color 0.5s ease;
+
+		&:hover {
+			background-color: $red;
+		}
+	}
+
+	ul {
+		list-style: none;
+	}
+
+	i {
+		color: $text-color;
+		padding: 1em;
+		font-size: 1em;
+
+		&:hover {
+			cursor: pointer;
+			color: $red;
+		}
+	}
+
+	a {
+		color: $text-color;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+.site-branding {
+	text-align: center;
+}

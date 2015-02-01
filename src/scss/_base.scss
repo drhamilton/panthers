@@ -1,0 +1,49 @@
+// _base.scss
+
+body { 
+	font-size: 100%;
+	font-family: $font-stack;
+}
+
+h1 { font-size: 2.25em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.3125em; }
+h4 { font-size: 1.125em; }
+h5 { font-size: 1em; }
+
+* {
+	line-height: $line-height;
+	box-sizing: border-box;
+}
+
+html {
+	height:100%;
+}
+
+header {
+	margin-bottom: 2em;
+}
+
+.container {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.site-content {
+	max-width: em(1024);
+	margin: 0 auto;
+	flex: 1;
+}
+
+.site-footer {
+	background: $footer-bg-color;
+	color: white;
+	margin-top: 2em;
+	padding: .5em 2em;
+}
+
+// state
+.hidden {
+	display: none;
+}
