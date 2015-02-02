@@ -29,7 +29,7 @@
 		</nav><!-- #site-navigation -->
 		<div class="site-branding">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<img src="http://localhost:8888/panthers/wp-content/uploads/2015/02/customLogo.jpg" alt="logo">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/logo.jpg" alt="logo">
 			</a>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 		</div><!-- .site-branding -->
